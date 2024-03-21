@@ -27,11 +27,23 @@ Implementation
     Anomaly Detection: Utilized Isolation Forest, Local Outlier Factor, and One-Class SVM for anomaly detection.
     Final Model: Constructed a final classification model using an ensemble approach combining Isolation Forest, 
     Local Outlier Factor, and One-Class SVM.
+Key Features:
+
+1) Diverse Model Selection: Implements Logistic Regression, Decision Tree, Random Forest, XGBoost, SVM, KNN, 
+Naive Bayes, and ensemble methods like Voting and Stacking.
+2) Anomaly Detection Techniques: Utilizes Isolation Forest, Local Outlier Factor, and One-Class SVM for 
+anomaly detection to identify suspicious transactions.
+3) Data Preprocessing: Handles masked variables, missing values, and performs feature engineering to prepare the 
+dataset for model training.
+4) Evaluation Metrics: Evaluates model performance using accuracy, precision, recall, and F1-score to ensure robustness.
+5) Final Classification Model: Constructs a final ensemble model combining multiple anomaly detection techniques 
+to effectively detect and prevent fraudulent transactions.
+6) Real-time Fraud Prevention: Offers a solution to mitigate profitability and reputation issues by identifying
+and declining fraudulent transactions in real-time.
 
 Usage
 
     Clone the repository to your local machine.
-    Install the required dependencies specified in the requirements.txt file.
     Run the preprocessing scripts to clean and prepare the dataset.
     Experiment with different machine learning models and anomaly detection techniques using provided scripts.
     Evaluate model performance and fine-tune parameters as necessary.

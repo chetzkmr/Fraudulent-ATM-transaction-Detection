@@ -1,5 +1,5 @@
 # Fraudulent-ATM-transaction-Detection
-*Capstone project*
+*Capstone project* -
 Banking Domain Anomaly Detection Project
 Problem Statement
 
